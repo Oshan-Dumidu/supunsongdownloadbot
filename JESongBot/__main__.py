@@ -26,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Whatsapp", url="https://t.me/OshanDumidu"
+                        text="Telegram", url="https://t.me/OshanDumidu"
                     ),
                     InlineKeyboardButton(
-                        text="Telegram", url="https://api.whatsapp.com/send?phone=94768319771"
+                        text="Whatsapp", url="https://api.whatsapp.com/send?phone=94768319771"
                     )
                 ]
             ]
