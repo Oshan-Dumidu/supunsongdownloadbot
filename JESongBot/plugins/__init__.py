@@ -1,4 +1,4 @@
-#Uvindu Bro <https://t.me/UvinduBro>
+#OshanDumidu <https://t.me/OshanDumidu>
 
 from os.path import dirname, basename, isfile, join
 import glob
