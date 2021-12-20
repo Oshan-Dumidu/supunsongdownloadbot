@@ -1,5 +1,5 @@
-# Plugin by @Mr_Dark_Prince
-#Uvindu Bro <https://t.me/UvinduBro>
+# Plugin by @OshanDumidu
+#OshanDumidu <https://t.me/OshanDumidu>
 
 import os
 import requests
@@ -48,13 +48,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("📥 Downloading the song by @supunma📥")
+    m.edit("📥 Downloading the song by @MusicOshan 📥")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**~ Uploaded by @supunma ~**'
+        rep = '**~ Uploaded by @@MusicOshan_bot ~**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
